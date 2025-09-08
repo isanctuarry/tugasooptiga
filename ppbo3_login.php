@@ -20,12 +20,11 @@ class User {
 // Buat user dummy
 $dummyUser = new User("admin", "12345");
 
-// Ambil input dari terminal (jalaninnya ketik "php login.php")
-echo "Masukin username: ";
-$username = readline(); // input username
-
-echo "Masukin password: ";
-$password = readline(); // input password
+if ($_SERVER["REQUEST_METHOD"] === "POST") {
+    $username = $_POST["username"];
+    $password = $_POST["password"];
+    $pesan = $dummyUser->login($username, $password);
+}
 
 // Cek login
 echo $dummyUser->login($username, $password);
