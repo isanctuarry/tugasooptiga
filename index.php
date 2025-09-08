@@ -17,7 +17,7 @@ $latihan = [
         h1 { color: #fcc2c2ff; }
         ul { list-style: none; padding: 0; }
         li { margin: 15px 0; }
-        a { text-decoration: none; color: white; background: #fcbae0ff; padding: 10px 15px; border-radius: 5px; }
+        a { text-decoration: none; color: white; background: #fcbae0ff; padding: 10px 15px; border-radius: 5px; display: inline-block; margin-left: 20px; }
         a:hover { background: #f174e8ff; }
     </style>
 </head>
