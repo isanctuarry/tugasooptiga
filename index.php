@@ -14,11 +14,11 @@ $latihan = [
     <title>Menu Latihan OOP</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 40px; background: #f9f9f9; }
-        h1 { color: #333; }
+        h1 { color: #fcc2c2ff; }
         ul { list-style: none; padding: 0; }
         li { margin: 10px 0; }
-        a { text-decoration: none; color: white; background: #007BFF; padding: 10px 15px; border-radius: 5px; }
-        a:hover { background: #0056b3; }
+        a { text-decoration: none; color: white; background: #fcbae0ff; padding: 10px 15px; border-radius: 5px; }
+        a:hover { background: #f174e8ff; }
     </style>
 </head>
 <body>
