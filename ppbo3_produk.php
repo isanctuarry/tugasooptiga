@@ -12,18 +12,18 @@ class product {
     }
 
     public function tampilkaninfo() {
-        echo "Nama Produk: " . $this->nama ."\n";
-        echo "Harga: Rp "  . number_format($this->harga, 0, ',', '.') ."\n";
-        echo "Stok: " . $this->stok . "\n"; 
+        echo "Nama Produk: " . $this->nama ."<br>";
+        echo "Harga: Rp "  . number_format($this->harga, 0, ',', '.') ."<br>";
+        echo "Stok: " . $this->stok . "<br>"; 
     }
 
     public function beliproduk($jumlah) {
         if ($jumlah > $this->stok) {
-            echo "Stok tidak cukup! Hanya tersedia {$this->stok}.\n";
+            echo "Stok tidak cukup! Hanya tersedia {$this->stok}.<br>";
         } else {
             $this->stok -= $jumlah;
             $total = $jumlah * $this->harga;
-            echo "Berhasil membeli {$jumlah} {$this->nama}. Total: Rp " . number_format($total, 0, ',', '.') . "\n";
+            echo "Berhasil membeli {$jumlah} {$this->nama}. Total: Rp " . number_format($total, 0, ',', '.') . "<br>";
         }
     } 
 
