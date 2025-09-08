@@ -26,15 +26,10 @@ class User {
 // Buat user dummy
 $dummyUser = new User("admin", "12345");
 
-// Ambil input dari terminal (jalaninnya ketik "php login.php")
-echo "Masukin username: ";
-$username = readline(); // input username
-
-echo "Masukin password: ";
-$password = readline(); // input password
-
-// Cek login
-echo $dummyUser->login($username, $password);
+if ($_SERVER["REQUEST_METHOD"] === "POST") {
+    $username = $_POST["username"];
+    $password = $_POST["password"];
+    $pesan = $dummyUser->login($username, $password);
 ?>
     <a href="ppbo3_login.php">LOGIN TERLEBIH DAHULU</a>
     <a href="ppbo3_persegipanjang.php">Latihan 1</a>
