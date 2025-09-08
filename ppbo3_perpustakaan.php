@@ -35,7 +35,7 @@ class Perpustakaan {
 
 // Inisialisasi perpustakaan dengan 3 buku
 $perpus = new Perpustakaan();
-$perpus->tambahBuku(new Buku("The Great Rico", "Isancuarry", 2005));
+$perpus->tambahBuku(new Buku("The Great Rico", "Isanctuarry", 2005));
 $perpus->tambahBuku(new Buku("Planet Earth", "Kurosaki Ichigo", 1980));
 $perpus->tambahBuku(new Buku("Cruelty of Time", "Soulatlast", 1997));
 
