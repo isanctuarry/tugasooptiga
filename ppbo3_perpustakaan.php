@@ -46,7 +46,7 @@ class Perpustakaan {
 session_start();
 if (!isset($_SESSION['perpus'])) {
     $_SESSION['perpus'] = new Perpustakaan();
-    $_SESSION['perpus']->tambahBuku(new Buku("The Great Rico", "Isancuarry", 2005));
+    $_SESSION['perpus']->tambahBuku(new Buku("The Great Rico", "Isanctuarry", 2005));
     $_SESSION['perpus']->tambahBuku(new Buku("Planet Earth", "Kurosaki Ichigo", 1980));
     $_SESSION['perpus']->tambahBuku(new Buku("Cruelty of Time", "Soulatlast", 1997));
 }
