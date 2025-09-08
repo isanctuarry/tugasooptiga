@@ -19,6 +19,6 @@ class PersegiPanjang {
 }
 
 $pp = new PersegiPanjang(8, 5);
-echo "Luas Persegi Panjang: " . $pp->luas() . "\n";
-echo "Keliling Persegi Panjang: " . $pp->keliling() . "\n";
+echo "Luas Persegi Panjang: " . $pp->luas() . "<br>";
+echo "Keliling Persegi Panjang: " . $pp->keliling() . "<br>";
 ?>
