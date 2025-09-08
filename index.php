@@ -1,9 +1,9 @@
 <?php
 // Daftar file latihan  
 $latihan = [
-    "ppbo3_produk.php" => "Latihan 1: Class Latihan 1",
-    "ppb03_login" => "Latihan 2: Class Latihan 2",
-    "ppbo3_perpustakaan.php" => "Latihan 3: Tugas Mandiri",
+    "ppbo3_produk.php" => "Latihan 1: Produk",
+    "ppb03_login" => "Latihan 2: Login",
+    "ppbo3_perpustakaan.php" => "Latihan 3: Perpustakaan",
     "ppbo3_persegipanjang.php"=> "Latihan 6: Hitung Luas Persegi Panjang",
 ];
 ?>
