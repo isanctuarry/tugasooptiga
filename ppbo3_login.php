@@ -20,12 +20,11 @@ class User {
 // Buat user dummy
 $dummyUser = new User("admin", "12345");
 
+// Jika ada form yang dikirim (POST)
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $username = $_POST["username"];
     $password = $_POST["password"];
     $pesan = $dummyUser->login($username, $password);
+    echo $pesan;
 }
-
-// Cek login
-echo $dummyUser->login($username, $password);
 ?>
