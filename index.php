@@ -28,14 +28,16 @@ $latihan = [
             text-align: center;
         }
 
-        ul {l
-            ist-style: none;
+        ul {
+            list-style: none;
              padding: 0; 
+             align-items: center;
             }
 
         li { 
             margin:
              15px 0;
+             align-items: center;
             }
             
         a { 
