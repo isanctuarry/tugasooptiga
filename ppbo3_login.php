@@ -10,9 +10,9 @@ class User {
 
     public function login($inputUsername, $inputPassword) {
         if ($inputUsername === $this->username && $inputPassword === $this->password) {
-            return echo "Login berhasil! Selamat datang, $inputUsername.";
+            return "Login berhasil! Selamat datang, $inputUsername.";
         } else {
-            return echo "Login gagal! Username atau password salah.";
+            return "Login gagal! Username atau password salah.";
         }
     }
 }
@@ -20,11 +20,10 @@ class User {
 // Buat user dummy
 $dummyUser = new User("admin", "12345");
 
-// Jika ada form yang dikirim (POST)
-if ($_SERVER["REQUEST_METHOD"] === "POST") {
-    $username = $_POST["username"];
-    $password = $_POST["password"];
-    $pesan = $dummyUser->login($username, $password);
-    echo $pesan;
-}
+// Login otomatis (simulasi)
+$username = "admin";
+$password = "12345"; // ubah jadi salah untuk tes
+
+// Tampilkan hasil login
+echo $dummyUser->login($username, $password);
 ?>
