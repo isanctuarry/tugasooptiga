@@ -7,6 +7,7 @@ $latihan = [
     "ppbo3_persegipanjang.php"=> "Latihan 6: Hitung Luas Persegi Panjang",
 ];
 ?>
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -14,11 +15,39 @@ $latihan = [
     <title>Menu Latihan OOP</title>
      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
     <style>
-        body { font-family: Poppins; margin: 40px; background: #f9f9f9; }
-        h1 { color: #fcc2c2ff; }
-        ul { list-style: none; padding: 0; }
-        li { margin: 15px 0; }
-        a { text-decoration: none; color: white; background: #fcbae0ff; padding: 10px 15px; border-radius: 5px; display: inline-block; margin-left: 20px; }
+        body { 
+            font-family: Poppins; 
+            margin: 40px; 
+            background: #f9f9f9; 
+            align-items: center;
+        }
+
+        h1 { 
+            color: #fdb2b2ff; 
+            font-family: Poppins;
+            text-align: center;
+        }
+
+        ul {l
+            ist-style: none;
+             padding: 0; 
+            }
+
+        li { 
+            margin:
+             15px 0;
+            }
+            
+        a { 
+            text-decoration: none; 
+            color: white; 
+            background: #fcbae0ff; 
+            padding: 10px 15px; 
+            border-radius: 5px; 
+            display: inline-block; 
+            margin-left: 20px; 
+        }
+        
         a:hover { background: #f174e8ff; }
     </style>
 </head>
