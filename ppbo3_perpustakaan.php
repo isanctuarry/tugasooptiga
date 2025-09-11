@@ -49,8 +49,6 @@ $perpustakaan->tambahBuku($buku1);
 $perpustakaan->tambahBuku($buku2);
 $perpustakaan->tambahBuku($buku3);
 
-echo "<br>";
-$perpustakaan->tampilkanBuku();
 ?>
 
 <!DOCTYPE html>
@@ -71,13 +69,13 @@ $perpustakaan->tampilkanBuku();
         h1 {
             font-family: Poppins;
             text-align: center;
-            color: #fcc2c2ff;
+            color: #fc8d8dff;
         }
 
         h3 {
             font-family: Poppins;
             text-align: center;
-            color: #fcc2c2ff;
+            color: #fc8d8dff;
             margin-bottom: 10px;
         }
 
@@ -92,7 +90,7 @@ $perpustakaan->tampilkanBuku();
             text-align: left;
         }
         th {
-            background-color: #eee;
+            background-color: #f9f4f4ff;
         }
 
         
