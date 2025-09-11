@@ -10,9 +10,9 @@ class User {
 
     public function login($inputUsername, $inputPassword) {
         if ($inputUsername === $this->username && $inputPassword === $this->password) {
-            return "Login berhasil! Selamat datang, $inputUsername.";
+            return echo "Login berhasil! Selamat datang, $inputUsername.";
         } else {
-            return "Login gagal! Username atau password salah.";
+            return echo "Login gagal! Username atau password salah.";
         }
     }
 }
