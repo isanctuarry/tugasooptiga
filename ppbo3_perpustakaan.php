@@ -50,3 +50,26 @@ $perpustakaan->tambahBuku($buku3);
 echo "<br>";
 $perpustakaan->tampilkanBuku();
 ?>
+
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+    <meta charset="UTF-8">
+    <title>Perpustakaan</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <style>
+
+    </style>
+    </head>
+    <body>
+        <div class="container">
+        <h1>OOP-Tugas Mandiri</h1>
+
+        <table>
+            <tr>
+                <th>Judul</th>
+                <th>Penulis</th>
+                <th>Tahun</th>
+            </tr>
+    </body>
+</html>
