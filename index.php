@@ -17,9 +17,12 @@ $latihan = [
     <style>
         body { 
             font-family: Poppins; 
-            margin: 40px; 
+            margin: 0; 
             background: #f9f9f9; 
+             display: flex;
+            flex-direction: column;
             align-items: center;
+            justify-content: center;
         }
 
         h1 { 
@@ -31,13 +34,11 @@ $latihan = [
         ul {
             list-style: none;
              padding: 0; 
-             align-items: center;
+             margin: 0;
             }
 
         li { 
-            margin:
-             15px 0;
-             align-items: center;
+            margin: 15px 0;
             }
             
         a { 
@@ -46,9 +47,8 @@ $latihan = [
             background: #fcbae0ff; 
             padding: 10px 15px; 
             border-radius: 5px; 
-            display: inline-block; 
-            margin-left: 20px; 
-        }
+            display: inline-block;  
+            align-items: center;
         
         a:hover { background: #f174e8ff; }
     </style>
