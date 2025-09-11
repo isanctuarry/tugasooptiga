@@ -19,7 +19,7 @@ $latihan = [
             font-family: Poppins; 
             margin: 0; 
             background: #f9f9f9; 
-             display: flex;
+            display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
@@ -49,8 +49,9 @@ $latihan = [
             border-radius: 5px; 
             display: inline-block;  
             align-items: center;
-        
+        }
         a:hover { background: #f174e8ff; }
+        
     </style>
 </head>
 <body>
