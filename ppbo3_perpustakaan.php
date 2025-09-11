@@ -65,14 +65,20 @@ $perpustakaan->tampilkanBuku();
             background: #f5f7fa;
             margin: 0;
             padding: 0;
-            color: #ffffffff;
+            color: #fc8d8dff;
         }
 
         h1 {
             font-family: Poppins;
             text-align: center;
             color: #fcc2c2ff;
-            margin-bottom: 15px;
+        }
+
+        h3 {
+            font-family: Poppins;
+            text-align: center;
+            color: #fcc2c2ff;
+            margin-bottom: 10px;
         }
 
          table {
