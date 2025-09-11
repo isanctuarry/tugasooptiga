@@ -65,7 +65,7 @@ $perpustakaan->tampilkanBuku();
             background: #f5f7fa;
             margin: 0;
             padding: 0;
-            color: #fc8d8dff;
+            color: #ffffffff;
         }
 
         h1 {
@@ -77,8 +77,8 @@ $perpustakaan->tampilkanBuku();
 
          table {
             border-collapse: collapse;
-            width: 60%;
-            margin-top: 20px;
+            width: 100%;
+            align-items: center;
         }
         th, td {
             border: 1px solid #333;
@@ -95,7 +95,7 @@ $perpustakaan->tampilkanBuku();
     <body>
         <div class="container">
         <h1>Selamat Datang di Meowbooks</h1><br>
-
+        <h3>Tugas Mandiri Perpustakaan</h3>
         <table>
             <tr>
                 <th>Judul</th>
