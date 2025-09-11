@@ -60,7 +60,7 @@ $perpustakaan->tambahBuku($buku3);
     <style>
         body {
             font-family: 'Poppins', sans-serif;
-            background: #f5f7fa;
+            background: #ffffffff;
             margin: 0;
             padding: 0;
             color: #fc8d8dff;
