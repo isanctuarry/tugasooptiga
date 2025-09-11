@@ -28,10 +28,12 @@ class Perpustakaan {
         if (empty($this->daftarBuku)) {
             echo "Tidak ada buku di perpustakaan.<br>";
         } else {
-            echo "Daftar Buku di Perpustakaan:<br>";
-            foreach ($this->daftarBuku as $index => $buku) {
-                $nomor = $index + 1;
-                echo "$nomor. $buku<br>";
+            foreach ($this->daftarBuku as $buku) {
+                echo "<tr>";
+                echo "<td>{$buku->judul}</td>";
+                echo "<td>{$buku->penulis}</td>";
+                echo "<td>{$buku->tahun}</td>";
+                echo "</tr>";
             }
         }
     }
@@ -58,12 +60,41 @@ $perpustakaan->tampilkanBuku();
     <title>Perpustakaan</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
     <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #f5f7fa;
+            margin: 0;
+            padding: 0;
+            color: #fc8d8dff;
+        }
 
+        h1 {
+            font-family: Poppins;
+            text-align: center;
+            color: #fcc2c2ff;
+            margin-bottom: 15px;
+        }
+
+         table {
+            border-collapse: collapse;
+            width: 60%;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 8px 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #eee;
+        }
+
+        
     </style>
     </head>
     <body>
         <div class="container">
-        <h1>OOP-Tugas Mandiri</h1>
+        <h1>Selamat Datang di Meowbooks</h1><br>
 
         <table>
             <tr>
@@ -71,5 +102,9 @@ $perpustakaan->tampilkanBuku();
                 <th>Penulis</th>
                 <th>Tahun</th>
             </tr>
+        <?php
+        $perpustakaan->tampilkanBuku();
+        ?>
+        <table>
     </body>
 </html>
