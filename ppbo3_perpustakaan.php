@@ -81,7 +81,7 @@ $perpustakaan->tambahBuku($buku3);
 
          table {
             border-collapse: collapse;
-            width: 100%;
+            width: 60%;
             align-items: center;
         }
         th, td {
