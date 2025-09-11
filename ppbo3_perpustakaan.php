@@ -83,7 +83,9 @@ $perpustakaan->tambahBuku($buku3);
             border-collapse: collapse;
             width: 60%;
             align-items: center;
+            margin: 0 auto;
         }
+
         th, td {
             border: 1px solid #333;
             padding: 8px 12px;
