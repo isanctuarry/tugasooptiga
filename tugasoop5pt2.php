@@ -45,18 +45,16 @@ $mhs2->setNilaiIPK(3.6);
 $mhs2->setPassword("notilting");
 
 
-echo "Nama: " . $mhs1->nama .
-"NIM: " . $mhs1->nim . 
-"Prodi: " . $mhs1->prodi . 
-$mhs1->showNilaiIPK() . 
-$mhs1->showPassword() . 
-"<br>";
+echo "Nama: " . $mhs1->nama . "<br>";
+echo "NIM: " . $mhs1->nim . "<br>";
+echo "Prodi: " . $mhs1->prodi . "<br>";
+echo $mhs1->showNilaiIPK() . "<br>";
+echo $mhs1->showPassword() . "<br>";
+"<br><br>";
 
-echo "Nama: " . $mhs2->nama .
-"NIM: " . $mhs2->nim . 
-"Prodi: " . $mhs2->prodi . 
-$mhs2->showNilaiIPK() . 
-$mhs2->showPassword() . 
-"<br>";
-
+echo "Nama: " . $mhs2->nama . "<br>";
+echo "NIM: " . $mhs2->nim . "<br>";
+echo "Prodi: " . $mhs2->prodi . "<br>";
+echo $mhs2->showNilaiIPK() . "<br>";
+echo $mhs2->showPassword() . "<br>";
 ?>
