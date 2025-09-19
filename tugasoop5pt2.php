@@ -40,7 +40,7 @@ $mhs1->setPassword("yummyno");
 $mhs2 = new Mahasiswa();
 $mhs2->nama = "Yu Q Wilson";
 $mhs2->nim = "120923";
-$mhs2->prodi = "Desain Komunikasi Visual";
+$mhs2->prodi = "Ilmu Komunikasi";
 $mhs2->setNilaiIPK(3.6);
 $mhs2->setPassword("notilting");
 
