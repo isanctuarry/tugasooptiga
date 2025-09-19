@@ -50,8 +50,8 @@ echo "NIM: " . $mhs1->nim . "<br>";
 echo "Prodi: " . $mhs1->prodi . "<br>";
 echo $mhs1->showNilaiIPK() . "<br>";
 echo $mhs1->showPassword() . "<br>";
-"<br>";
-"<br>";
+echo "<br>";
+
 
 echo "Nama: " . $mhs2->nama . "<br>";
 echo "NIM: " . $mhs2->nim . "<br>";
