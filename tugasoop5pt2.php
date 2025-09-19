@@ -22,29 +22,41 @@ class Mahasiswa {
     }
 
     protected function getNilaiIPK() {
-        return "Nilai IPK mahasiswa adalah $this->ipk";
+        return "Nilai IPK: $this->ipk";
     }
 
     private function getPassword() {
-        return "Password akun mahasiswa adalah $this->password";
+        return "Password: $this->password";
     }
 }
 
-$mahasiswa = new Mahasiswa();
-$mahasiswa->nama = "Claude Clawmark";
-$mahasiswa->nim = "012223";
-$mahasiswa->prodi = "Teknik Informatika";
+$mhs1 = new Mahasiswa();
+$mhs1->nama = "Claude Clawmark";
+$mhs1->nim = "012223";
+$mhs1->prodi = "Teknik Informatika";
+$mhs1->setNilaiIPK(3.9);
+$mhs1->setPassword("yummyno");
 
-$mahasiswa->setNilaiIPK(3.9);
-$mahasiswa->setPassword("yummyno");
+$mhs2 = new Mahasiswa();
+$mhs2->nama = "Yu Q Wilson";
+$mhs2->nim = "120923";
+$mhs2->prodi = "Desain Komunikasi Visual";
+$mhs2->setNilaiIPK(3.6);
+$mhs2->setPassword("notilting");
 
-echo $mahasiswa->nama;
-echo "\n";
-echo $mahasiswa->nim;
-echo "\n";
-echo $mahasiswa->prodi;
-echo "\n";
-echo $mahasiswa->showNilaiIPK();
-echo "\n";
-echo $mahasiswa->showPassword(); 
+
+echo $mhs1 "Nama: " . $mahasiswa->nama .
+. "NIM: " . $mhs1->nim . 
+. "Prodi: " . $mhs1->prodi . 
+. $mhs1->showNilaiIPK() . 
+. $mhs1->showPassword() . 
+. "<br>";
+
+echo $mhs2 "Nama: " . $mahasiswa->nama .
+. "NIM: " . $mhs2->nim . 
+. "Prodi: " . $mhs2->prodi . 
+. $mhs2->showNilaiIPK() . 
+. $mhs2->showPassword() . 
+. "<br>";
+
 ?>
