@@ -5,6 +5,7 @@ $latihan = [
     "ppbo3_login.php" => "Latihan 2: Login",
     "ppbo3_perpustakaan.php" => "Latihan 3: Perpustakaan",
     "ppbo3_persegipanjang.php"=> "Latihan 6: Hitung Luas Persegi Panjang",
+    "tugasoop5.php"=> "Latihan Praktikum OOP 5",
 ];
 ?>
 
