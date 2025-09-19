@@ -27,7 +27,23 @@ $mhs2 = new Mahasiswa("Yeon", "139912", "Fashion Design", 2020, "Cuti");
 $mhs3 = new Mahasiswa("Beom", "130113", "Desain Komunikasi Visual", 2021, "Keluar");
 
 // Menampilkan keterangan masing-masing
-echo $mhs1->nama . " (" . $mhs1->nim . ") - Status: " . $mhs1->getKeterangan() . "<br>";
-echo $mhs2->nama . " (" . $mhs2->nim . ") - Status: " . $mhs2->getKeterangan() . "<br>";
-echo $mhs3->nama . " (" . $mhs3->nim . ") - Status: " . $mhs3->getKeterangan() . "<br>";
+echo $mhs1->nama . " (" . $mhs1->nim . ")" 
+    . " - Prodi: " . $mhs1->prodi 
+    . " - Angkatan: " . $mhs1->angkatan 
+    . " - Status: " . $mhs1->getKeterangan() 
+    . "<br>";
+
+echo $mhs2->nama . " (" . $mhs2->nim . ")" 
+    . " - Prodi: " . $mhs2->prodi 
+    . " - Angkatan: " . $mhs2->angkatan 
+    . " - Status: " . $mhs2->getKeterangan() 
+    . "<br>";
+
+echo $mhs3->nama . " (" . $mhs3->nim . ")" 
+    . " - Prodi: " . $mhs3->prodi 
+    . " - Angkatan: " . $mhs3->angkatan 
+    . " - Status: " . $mhs3->getKeterangan() 
+    . "<br>";
+
+
 ?>
