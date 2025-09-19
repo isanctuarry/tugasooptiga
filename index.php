@@ -38,13 +38,11 @@ $mahasiswa->prodi = "Teknik Informatika";
 $mahasiswa->setNilaiIPK(3.9);
 $mahasiswa->setPassword("yummyno");
 
-echo $mahasiswa->nama;
-echo "\n";
-echo $mahasiswa->nim;
-echo "\n";
-echo $mahasiswa->prodi;
-echo "\n";
-echo $mahasiswa->showNilaiIPK();
-echo "\n";
-echo $mahasiswa->showPassword(); 
+
+echo "Nama: " . $mahasiswa->nama . "<br>";
+echo "NIM: " . $mahasiswa->nim . "<br>";
+echo "Prodi: " . $mahasiswa->prodi . "<br>";
+echo $mahasiswa->showNilaiIPK() . "<br>";
+echo $mahasiswa->showPassword() . "<br>";
+
 ?>
