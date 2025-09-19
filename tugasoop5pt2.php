@@ -46,17 +46,17 @@ $mhs2->setPassword("notilting");
 
 
 echo "Nama: " . $mhs1->nama .
-. "NIM: " . $mhs1->nim . 
-. "Prodi: " . $mhs1->prodi . 
-. $mhs1->showNilaiIPK() . 
-. $mhs1->showPassword() . 
-. "<br>";
+"NIM: " . $mhs1->nim . 
+"Prodi: " . $mhs1->prodi . 
+$mhs1->showNilaiIPK() . 
+$mhs1->showPassword() . 
+"<br>";
 
 echo "Nama: " . $mhs2->nama .
-. "NIM: " . $mhs2->nim . 
-. "Prodi: " . $mhs2->prodi . 
-. $mhs2->showNilaiIPK() . 
-. $mhs2->showPassword() . 
-. "<br>";
+"NIM: " . $mhs2->nim . 
+"Prodi: " . $mhs2->prodi . 
+$mhs2->showNilaiIPK() . 
+$mhs2->showPassword() . 
+"<br>";
 
 ?>
