@@ -45,14 +45,14 @@ $mhs2->setNilaiIPK(3.6);
 $mhs2->setPassword("notilting");
 
 
-echo $mhs1 "Nama: " . $mahasiswa->nama .
+echo $mhs1 "Nama: " . $mhs1->nama .
 . "NIM: " . $mhs1->nim . 
 . "Prodi: " . $mhs1->prodi . 
 . $mhs1->showNilaiIPK() . 
 . $mhs1->showPassword() . 
 . "<br>";
 
-echo $mhs2 "Nama: " . $mahasiswa->nama .
+echo $mhs2 "Nama: " . $mhs2->nama .
 . "NIM: " . $mhs2->nim . 
 . "Prodi: " . $mhs2->prodi . 
 . $mhs2->showNilaiIPK() . 
